@@ -6,10 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-
-
-
-remote_file "/tmp/myphoto.jpeg" do
-  source "http://photography.nationalgeographic.com/photography/photo-of-the-day/pronking-springbok-karoo-africa/"
-  action :nothing
+remote_file "/tmp/beanstalk-sample.zip" do
+  source "http://s3.amazonaws.com/elasticbeanstalk-samples-us-east-1/nodejs-sample.zip"
 end
